@@ -66,9 +66,9 @@ let sb = new CountUp('sb', 0, 0, 0, .5, {
 
 let olddata=undefined;
 //----------------------------------------
-const username = "c0d3_m4513r";
-const token = "oauth:z91ex396c2v0qnc19tfg6ztp9dfqu9";
-const channel = "#c0d3_m4513r"
+const username = "username";//login name
+const token = "oauth:PlaceYourOAuthTokenHere";
+const channel = "#channelname"//channel for responding to commands
 
 const run = async ()=>{
     const chat = new window.TwitchJs.Chat(
